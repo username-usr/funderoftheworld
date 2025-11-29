@@ -1,0 +1,50 @@
+/* src/index.css - NEW CONTENT */
+
+/* Color Palette */
+:root {
+  --primary-color: #007bff; /* Blue */
+  --secondary-color: #6c757d; /* Gray */
+  --success-color: #28a745; /* Green for success messages/buttons */
+  --danger-color: #dc3545; /* Red for errors/buttons */
+  --bg-light: #f8f9fa; /* Light background */
+  --bg-white: #ffffff; /* White background */
+  --text-dark: #212529; /* Dark text */
+  --border-color: #ced4da;
+  
+  /* Font and Layout */
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+a:hover {
+  color: #0056b3;
+}
